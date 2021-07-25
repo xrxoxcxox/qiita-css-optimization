@@ -1,0 +1,11 @@
+{
+  "extends": "stylelint-config-standard",
+  "plugins": [
+    "stylelint-order",
+    "stylelint-no-unused-selectors"
+  ],
+  "rules": {
+    "order/properties-alphabetical-order": true,
+    "plugin/no-unused-selectors": true
+  }
+}
